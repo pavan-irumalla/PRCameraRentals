@@ -1,0 +1,68 @@
+.sidenav {
+    position: fixed;
+    top: 0;
+    left: -250px;
+    height: 100%;
+    width: 250px;
+    background: #1a1a1a;
+    color: #fff;
+    transition: left 0.3s ease;
+    padding: 1rem;
+    z-index: 200;
+}
+
+.sidenav.open {
+    left: 0;
+}
+
+.sidenav .close-btn {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.sidenav ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 2rem;
+}
+
+.sidenav ul li {
+    margin-bottom: 1rem;
+}
+
+.sidenav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.sidenav ul li a:hover {
+    color: #ff6b35;
+}
+
+.sidenav-header {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.sidenav-header h2 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.sidenav-header p {
+    font-size: 0.9rem;
+    color: #ccc;
+    margin: 0.25rem 0 0;
+}
+
+.sidenav-footer {
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+    font-size: 0.75rem;
+    color: #777;
+}
